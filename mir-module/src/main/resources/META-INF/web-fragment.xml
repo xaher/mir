@@ -31,6 +31,15 @@
     <servlet-name>MirSelfRegistrationServlet</servlet-name>
     <url-pattern>/servlets/MirSelfRegistrationServlet</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>MIRMoreLikeThisServlet</servlet-name>
+    <servlet-class>org.mycore.mir.duplicate.MIRMoreLikeThisQueryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MIRMoreLikeThisServlet</servlet-name>
+    <url-pattern>/servlets/MirMoreLikeThisServlet</url-pattern>
+  </servlet-mapping>
 
   <servlet>
     <servlet-name>MIRAccessKeyServlet</servlet-name>

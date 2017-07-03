@@ -65,6 +65,10 @@
       <label xml:lang="de">Sachgruppen</label>
       <label xml:lang="en">SNDB</label>
     </item>
+    <item href="/content/browse/similarityList.xml" type="intern">
+      <label xml:lang="de">Dublettensuche</label>
+      <label xml:lang="en">Duplicate Search</label>
+    </item>
     <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern">
       <label xml:lang="de">Personen</label>
       <label xml:lang="en">Persons</label>

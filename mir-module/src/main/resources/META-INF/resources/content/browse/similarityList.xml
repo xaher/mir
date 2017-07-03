@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MyCoReWebPage>
+  <section xml:lang="all">
+    <similarityList class="container">
+     <script src="../../js/mir/similarity-list.js" />
+      <div class="row">
+        <a href="#" id="list" class="btn btn-info" role="button">neues Dokument</a>
+      <div class="container" style="display: none;" id="show-if-success">
+        <p id="finished">Das Dokument wurde erfolgreich überprüft. Wenn ein weiteres Dokument angezigt werden soll klicken Sie bitte auf den Knopf.</p>
+        <a href="#" id="element" class="btn btn-info" role="button">nächste Dokument</a>
+      </div>
+      <div class="container"><ul class="new-list"></ul></div>
+      </div>
+    </similarityList>
+  </section>
+</MyCoReWebPage>

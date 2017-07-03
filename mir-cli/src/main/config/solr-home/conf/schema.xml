@@ -185,7 +185,7 @@
 
     <!-- mycore-mods -->
     <field name="mods.type" type="string" />
-    <field name="mods.title" type="text_general" multiValued="true" />
+    <field name="mods.title" type="text_general" multiValued="true" termVectors="true"/>
     <field name="mods.title.host" type="text_general" multiValued="true" />
     <field name="mods.title.main" type="collatedGERMAN" />
     <field name="mods.title.subtitle" type="text_de" />
@@ -196,7 +196,7 @@
     <field name="mods.author" type="namesType" multiValued="true" />
     <field name="mods.mainAuthor" type="collatedGERMAN" indexed="true" stored="false" />
     <field name="mods.genre" type="string" multiValued="true" />
-    <field name="mods.identifier" type="string" multiValued="true" />
+    <field name="mods.identifier" type="string" multiValued="true" termVectors="true"/>
     <field name="mods.identifier.host" type="string" multiValued="true" />
     <field name="mods.abstract" type="text_de" multiValued="true" />
     <field name="mods.abstract.result" type="text_de" indexed="false" />
